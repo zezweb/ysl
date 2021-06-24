@@ -1,0 +1,200 @@
+@charset 'utf-8';
+
+html,body{
+    margin: 0;
+}
+
+ul,li,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,figure,p{
+    margin: 0;
+}
+
+img{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 11px;
+    color: #555;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    position:fixed; 
+    /* 상단 헤더 고정 */
+    top:0; 
+    left:0;
+    padding:14px 0;
+    background:#fff;
+    z-index: 9999;
+}
+
+.logo{
+    margin-left:10%;
+}
+
+.h_menu{
+    margin-right:10%;
+}
+
+
+.h_menu a{
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.logo a img{
+    width: 150px;
+}
+
+.b_m{
+    display: none;
+    margin-right: 22px;
+}
+
+.b_m p{
+    height: 2px;
+    width: 20px;
+    background: #000;
+}
+
+.b_m a{
+    margin: 0;
+}
+
+.b_m p:nth-child(1){
+    margin-bottom: 3px;
+}
+
+.b_m p:nth-child(2){
+    margin-bottom: 3px;
+}
+
+/* header ///////////////////////// */
+
+
+footer{
+    text-align: center;
+    background: #000;
+}
+
+.f_img img{
+    width: 96px;
+    padding-top: 75px;
+}
+
+.f_text{
+    padding: 50px;
+}
+
+.f_text_1 p, .f_text_2 p, .f_text_3 p{
+    color: rgb(197, 197, 197);
+    font-size: 11px;
+}
+
+.f_text_3 p span{
+    color: rgb(197, 197, 197);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+.f_text_1{
+    padding-bottom: 40px;
+}
+
+.f_text_2{
+    padding-bottom: 40px;
+}
+
+.f_text_3{
+    padding-bottom: 68px;
+}
+
+.x_m{
+    position: relative;
+    display: lnline-block;
+    height: 30px;
+    width: 30px;
+    right: 0;
+}
+
+.x_m span{
+    position: absolute;
+    height: 2px;
+    width: 20px;
+    background: #fff;
+}
+
+.x_m span:nth-child(1){
+    transform: rotate(45deg);
+    top:calc(50% - 1px);
+}
+
+.x_m span:nth-child(2){
+    transform: rotate(-45deg);
+    top:calc(50% - 1px);
+}
+
+.x_m{
+    display: none;
+}
+
+/* footer ////////////////////////// */
+
+
+@media (max-width:580px){
+    .h_menu{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        line-height: 5;
+
+        display: none;
+    }
+
+    .h_menu a{
+        color: #fff;
+        width: 60%;
+        font-size: 19px;
+    }
+
+    .b_m{
+        display: block;
+    }
+
+    .x_m{
+        display: none;
+        margin: 3% 5%;
+    }
+}
+
+@media (max-width: 520px){
+    .logo a img {
+        width: 119px;
+    }
+}
