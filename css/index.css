@@ -606,7 +606,6 @@ figcaption p:last-child:hover a{
     .l figcaption {
         position: static;
         margin: 6% 0 11% 14%;
-        width: 100%;
     }
     .event{
         margin-bottom: 12%;
