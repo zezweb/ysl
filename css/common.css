@@ -1,5 +1,35 @@
 @charset 'utf-8';
 
+
+html,body{
+    margin: 0;
+}
+
+ul,li,ol{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,figure,p{
+    margin: 0;
+}
+
+img{
+    vertical-align: top;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+*{
+    box-sizing: border-box;
+    font-size: 11px;
+    color: #555;
+}
+
 html,body{
     margin: 0;
 }
@@ -93,6 +123,12 @@ header{
 }
 
 /* b_m hover start ///////////// */
+
+
+
+.b_m:hover .h_menu{
+    display: block;
+}
 
 .b_m:hover a p{
     background: #fff;
