@@ -7,14 +7,14 @@
     <title>Document</title>
     <link href="css/common.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
-
+    
 
     <meta property="og:title" content="YSL BEAUTY">
     <meta property="og:url" content="http://zezweb.github.io/ysl">
     <meta property="og:image" content="img/thumbnail/ysl_n.png">
     <meta property="og:description" content="Ysl Beauty">
     <!-- 페이스북 오픈그래프 api -->
- 
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="YSL BEAUTY">
     <meta name="twitter:url" content="http://zezweb.github.io/ysl">
@@ -24,31 +24,44 @@
 
     <link rel="shortcut icon" href="img/favicon/16x16_icon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="114*114" href="img/favicon/114x114.png">
+    
 </head>
 
 <body>
+    
     <header>
         <div class="logo">
             <a href="index.html"><img src="img/header/logo.png" alt="#"></a>
         </div>
+
+    <article class="h_menu">
+            <a class="menu-trigger type7">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         
-        <nav class="h_menu">
+        <nav>
             <a href="makeup.html">메이크업</a>
             <a href="skincare.html">스킨케어</a>
             <a href="perfume.html">향수</a>
             <a href="shop.html">매장찾기</a>
         </nav>
-        <nav class="b_m">
-            <a href="#">
-                <p></p>
-                <p></p>
-                <p></p>
-            </a>
-        </nav>
+    </article>
+
+    <script>
+        const elBurger = document.querySelector('.menu-trigger');
+        const elNav = document.querySelector('.h_menu nav');
+        elBurger.addEventListener('click',function(){
+            this.classList.toggle('active-7');
+            elNav.classList.toggle('active');
+        });
+        
+    </script>
+        
 </header>
 
-
-
+    
     <!-- header  -->
 
     <div class="main">
