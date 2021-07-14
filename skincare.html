@@ -12,25 +12,35 @@
 
     <header>
         <div class="logo">
-            <a href="index.html"><img src="img/header/logo.png"></a>
+            <a href="index.html"><img src="img/header/logo.png" alt="#"></a>
         </div>
+
+    <article class="h_menu">
+            <a class="menu-trigger type7">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
         
-        <nav class="h_menu">
+        <nav>
             <a href="makeup.html">메이크업</a>
             <a href="skincare.html">스킨케어</a>
             <a href="perfume.html">향수</a>
             <a href="shop.html">매장찾기</a>
         </nav>
-        <nav class="b_m">
-            <a href="#">
-                <p></p>
-                <p></p>
-                <p></p>
-            </a>
-        </nav>
+    </article>
+
+    <script>
+        const elBurger = document.querySelector('.menu-trigger');
+        const elNav = document.querySelector('.h_menu nav');
+        elBurger.addEventListener('click',function(){
+            this.classList.toggle('active-7');
+            elNav.classList.toggle('active');
+        });
+        
+    </script>
+        
 </header>
-    
-<!-- header -->
 
     <div class="s_bg">
         <div class="s_img">
