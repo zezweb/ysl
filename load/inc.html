@@ -1,0 +1,80 @@
+<header>
+    <div>
+        <div class="logo">
+            <a href="index.html"><img src="img/header/logo.png" alt="#"></a>
+        </div>
+
+        <article class="h_menu">
+            <a class="menu-trigger type7">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+
+            <nav>
+                <a href="makeup.html">메이크업</a>
+                <a href="skincare.html">스킨케어</a>
+                <a href="perfume.html">향수</a>
+                <a href="shop.html">매장찾기</a>
+            </nav>
+        </article>
+
+        <script>
+            const elBurger = document.querySelector('.menu-trigger');
+            const elNav = document.querySelector('.h_menu nav');
+            elBurger.addEventListener('click', function () {
+                this.classList.toggle('active-7');
+                elNav.classList.toggle('active');
+            });
+        </script>
+    </div>
+</header>
+
+
+<!-- footer -->
+
+<footer>
+    <div>
+        <div class="f_img">
+            <img src="img/footer/footer_mark.png" alt="#">
+        </div>
+
+        <div class="f_text">
+            <div class="f_text_1">
+                <p>
+                    입생로랑 뷰티 고객 케어 센터 CONSUMER CARE CENTER
+                </p>
+            </div>
+
+            <div class="f_text_2">
+                <p>
+                    구매/배송/사이트 이용 문의 080-835-0089
+                </p>
+                <p>
+                    제품문의 080-347-0089
+                </p>
+                <p>
+                    상담 시간: 월~금 9:30~17:30
+                </p>
+                <p>
+                    (토/일/공휴일 휴무)
+                </p>
+            </div>
+
+            <div class="f_text_3">
+                <p>
+                    사업자명: 엘오케이(유), 대표: 크리스티앙 마르코스 아르나이, 사업자 등록번호: 220-81-73483 (사업자정보 확인)
+                </p>
+                <p>
+                    주소: 서울특별시 강남구 영동대로 517 아셈타워 31층 <span>개인정보처리방침</span>
+                </p>
+                <p>
+                    통신판매업신고: 2012-서울강남-01663, 개인정보 관리 책임자: 서지영 | 고객케어센터: 080-835-0089
+                </p>
+                <p>
+                    © 2021 Yves Saint Laurent Cosmetics. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
