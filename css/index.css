@@ -134,10 +134,13 @@ main h2{
     width: 80%;
     margin: 0 auto;
     margin-bottom: 100px;
+    height: 100%;
 }
 
 .b{
     text-align: center;
+    width: 100%;
+    margin: 0 auto;    
 }
 
 .b_img{
@@ -173,6 +176,10 @@ main h2{
 
 /* b_1_color */
 
+.left_icon, .right_icon{
+    width: 25px;
+}
+
 .left_icon img, .right_icon img{
     width: 28px;
 }
@@ -184,6 +191,7 @@ main h2{
 .b_1_color, .b_2_color, .b_3_color, .b_4_color, .b_5_color{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .b_1_color span, .b_2_color span, .b_3_color span, 
@@ -194,8 +202,10 @@ main h2{
     margin: 2px;
 }
 
-
-
+.slick-track{
+    display: flex;
+    justify-content: center;
+}
 
 /* best_end ////////////////////// */
 
@@ -523,10 +533,7 @@ transform: translateY(100%);
         justify-content: center;
         width: 90%;
     }
-    .b{
-        width: 30%;
-        margin: 0 10px;
-    }
+
     .b_1_color span:nth-child(3){
         display: block;
     }
@@ -820,10 +827,6 @@ transform: translateY(100%);
         top: 40%;
     }
 
-    .b{
-        width: 54%;
-    }
-
     .b_1_color span:nth-child(3), 
     .b_1_color span:nth-child(4), 
     .b_1_color span:nth-child(5){
@@ -992,6 +995,7 @@ transform: translateY(100%);
     }
     .b_img a img {
         width: 81%;
+        margin: 0 auto;
     }
     .btn span {
         width: 23px;
