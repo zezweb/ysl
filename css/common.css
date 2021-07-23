@@ -61,11 +61,7 @@ a{
 
 
 header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 100%;
-
     position:fixed; 
     /* 상단 헤더 고정 */
     top:0; 
@@ -74,7 +70,11 @@ header{
     background:#fff;
     z-index: 9999;
 }
-
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo{
     margin-left:10%;
 }
