@@ -4,10 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="css/common.css" rel="stylesheet">
-    <link href="css/index.css" rel="stylesheet">
-    
 
     <meta property="og:title" content="YSL BEAUTY">
     <meta property="og:url" content="http://zezweb.github.io/ysl">
@@ -22,14 +18,26 @@
     <meta name="twitter:description" content="Ysl Beauty">
     <!-- 트위터 오픈그래프 api -->
 
+    <title>Document</title>
+    <link href="css/common.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
+    <link href="./slick-default/slick.css" rel="stylesheet">
+    
     <link rel="shortcut icon" href="img/favicon/16x16_icon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="114*114" href="img/favicon/114x114.png">
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+    <script src="./slick-default/slick.min.js"></script>
+
+    <script src="load/common.js"></script>
+    
+    
     
 </head>
 
 <body>
     
-    <header>
+    <!-- <header>
         <div class="logo">
             <a href="index.html"><img src="img/header/logo.png" alt="#"></a>
         </div>
@@ -56,11 +64,14 @@
             this.classList.toggle('active-7');
             elNav.classList.toggle('active');
         });
-        
     </script>
-        
-</header>
 
+
+    
+
+        
+</header> -->
+    <header></header>
     
     <!-- header  -->
 
@@ -86,111 +97,157 @@
     </main>
 
     
-        <div class="best">
-            <div class="btn">
-                <span>
+        <div class="best regular slider">
+            <!-- <div class="btn slick-arrow">
+                <span class="slick-prev">
                     <a href="#">
                     <img src="img/left_icon.png" alt="#">
                     </a>
                 </span>
-                <span>
+                <span class="slick-next">
                     <a href="#">
                     <img src="img/right_icon.png" alt="#">
                     </a>
                 </span>
+            </div> -->
+
+            <div>
+                <ul class="b">
+                    <li class="b_img">
+                        <a href="#"><img src="img/best_1/pa2.png" alt="#"></a>
+                    </li>
+                    <li class="b_1_color">
+                        <div class="left_icon">
+                            <img src="img/icon_left.png" alt="#">
+                        </div>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <div class="right_icon">
+                            <img src="img/icon_right.png" alt="#">
+                        </div>
+                    </li>
+                    
+                    <li class="b_text">
+                        <a href="#">올아워 파운데이션</a>
+                        <a href="#">올아워 파운데이션</a>
+                    </li>
+                    <li class="b_text_2">
+                        <a href="#">80,000&#92;</a>
+                    </li>
+                </ul>
             </div>
-            <ul class="b">
-                <li class="b_img">
-                    <a href="#"><img src="img/best_1/pa2.png" alt="#"></a>
-                </li>
-                <li class="b_1_color">
-                    <div class="left_icon">
-                        <img src="img/icon_left.png" alt="#">
-                    </div>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <div class="right_icon">
-                        <img src="img/icon_right.png" alt="#">
-                    </div>
-                </li>
+            
+            <div>
+                <ul class="b">
+                    <li class="b_img">
+                        <a href="#"><img src="img/best_2/per1.png" alt="#"></a>
+                    </li>
+                    <li class="b_2_color">
+                        <span></span>
+                    </li>
+                    <li class="b_text">
+                        <a href="#">리브르 오 드 빠르펭</a>
+                        <a href="#">입생로랑 아이코닉 향수</a>
+                    </li>
+                    <li class="b_text_2">
+                        <a href="#">152,000&#92;</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <ul class="b">
+                    <li class="b_img">
+                        <a href="buy_main.html"><img src="img/best_3/fact1.png" alt="#"></a>
+                    </li>
+                    <li class="b_3_color">
+                        <span></span>
+                        <span></span>
+                    </li>
+                    <li class="b_text">
+                        <a href="buy_main.html">엉크르 드 뽀 쿠션</a>
+                        <a href="buy_main.html">NEW 스모키 에디션</a>
+                    </li>
+                    <li class="b_text_2">
+                        <a href="buy_main.html">89,000&#92;</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div>
+                <ul class="b">
+                    <li class="b_img">
+                        <a href="#"><img src="img/best_4/pen1.png" alt="#"></a>
+                    </li>
+                    <li class="b_4_color">
+                        <span></span>
+                        <span></span>
+                    </li>
+                    <li class="b_text">
+                        <a href="#">뚜쉬 에끌라</a>
+                        <a href="#">매직펜</a>
+                    </li>
+                    <li class="b_text_2">
+                        <a href="#">50,000&#92;</a>
+                    </li>
+                </ul>
+            </div>
                 
-                <li class="b_text">
-                    <a href="#">올아워 파운데이션</a>
-                    <a href="#">올아워 파운데이션</a>
-                </li>
-                <li class="b_text_2">
-                    <a href="#">80,000&#92;</a>
-                </li>
-            </ul>
-            <ul class="b">
-                <li class="b_img">
-                    <a href="#"><img src="img/best_2/per1.png" alt="#"></a>
-                </li>
-                <li class="b_2_color">
-                    <span></span>
-                </li>
-                <li class="b_text">
-                    <a href="#">리브르 오 드 빠르펭</a>
-                    <a href="#">입생로랑 아이코닉 향수</a>
-                </li>
-                <li class="b_text_2">
-                    <a href="#">152,000&#92;</a>
-                </li>
-            </ul>
-
-            <ul class="b">
-                <li class="b_img">
-                    <a href="buy_main.html"><img src="img/best_3/fact1.png" alt="#"></a>
-                </li>
-                <li class="b_3_color">
-                    <span></span>
-                    <span></span>
-                </li>
-                <li class="b_text">
-                    <a href="buy_main.html">엉크르 드 뽀 쿠션</a>
-                    <a href="buy_main.html">NEW 스모키 에디션</a>
-                </li>
-                <li class="b_text_2">
-                    <a href="buy_main.html">89,000&#92;</a>
-                </li>
-            </ul>
-
-            <ul class="b">
-                <li class="b_img">
-                    <a href="#"><img src="img/best_4/pen1.png" alt="#"></a>
-                </li>
-                <li class="b_4_color">
-                    <span></span>
-                    <span></span>
-                </li>
-                <li class="b_text">
-                    <a href="#">뚜쉬 에끌라</a>
-                    <a href="#">매직펜</a>
-                </li>
-                <li class="b_text_2">
-                    <a href="#">50,000&#92;</a>
-                </li>
-            </ul>
-
-            <ul class="b">
-                <li class="b_img">
-                    <a href="#"><img src="img/best_5/serum1.png" alt="#"></a>
-                </li>
-                <li class="b_5_color">
-                    <span></span>
-                </li>
-                <li class="b_text">
-                    <a href="#">나이트 리부트 세럼</a>
-                    <a href="#">데일리 각질 케어</a>
-                </li>
-                <li class="b_text_2">
-                    <a href="#">162,000&#92;</a>
-                </li>
-            </ul>
+            <div>
+                <ul class="b">
+                    <li class="b_img">
+                        <a href="#"><img src="img/best_5/serum1.png" alt="#"></a>
+                    </li>
+                    <li class="b_5_color">
+                        <span></span>
+                    </li>
+                    <li class="b_text">
+                        <a href="#">나이트 리부트 세럼</a>
+                        <a href="#">데일리 각질 케어</a>
+                    </li>
+                    <li class="b_text_2">
+                        <a href="#">162,000&#92;</a>
+                    </li>
+                </ul>
+            </div>
         </div>
+
+        <script>
+            $('.regular').slick({
+            dots: false,
+            infinite: false,
+            speed: 300,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            responsive: [
+                
+                {
+                    breakpoint: 561,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        dots: false
+                    }
+                }
+                
+            ]
+            });
+
+            // var mql = window.matchMedia('screen and (max-width:561px)');
+            // mql.addListener(function(e){
+            //     if(e.matches){
+            //         console.log('561미만')
+            
+            //     }
+            //     else{console.log('561이상')}
+            // });
+        </script>
+
+        
 
         <div class="event">
             <div class="event_img">
@@ -222,9 +279,11 @@
             </div>
         </div>
 
+        <footer></footer>
+        
 <!-- footer -->
 
-    <footer>
+    <!-- <footer>
         <div class="f_img">
             <img src="img/footer/footer_mark.png" alt="#">
         </div>
@@ -266,7 +325,7 @@
                 </p>
             </div>
         </div>
-    </footer>
+    </footer> -->
         
 </body>
 </html>
