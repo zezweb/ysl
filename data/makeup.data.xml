@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<work>
+    <item>
+        <photo><img src="img/makeup/acc_1.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>르 쿠션 엉크르 드 뽀 어플리케이터</name>
+        <detail>쿠션 어플리케이터</detail>
+        <money>14,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/makeup/acc_2.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>파운데이션 브러쉬</name>
+        <detail>브러쉬</detail>
+        <money>70,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/makeup/acc_3.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>파우더 브러쉬</name>
+        <detail>브러쉬</detail>
+        <money>87,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/makeup/acc_4.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>마블 팩트 어플리케이터</name>
+        <detail>팩트 어플리케이터</detail>
+        <money>12,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/makeup/acc_5.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>폴리싱 파운데이션 브러쉬</name>
+        <detail>브러쉬</detail>
+        <money>82,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/makeup/acc_6.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>블러쉬 브러쉬</name>
+        <detail>브러쉬</detail>
+        <money>73,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/makeup/acc_7.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>리트랙터블 립 브러쉬</name>
+        <detail>브러쉬</detail>
+        <money>41,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/makeup/acc_8.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>올아워 파우더 스폰지</name>
+        <detail>파우더 스폰지 2개입</detail>
+        <money>15,000&#92;</money>
+    </item>
+</work>
