@@ -35,10 +35,11 @@
 
 .buy_box_1 p{
     padding: 0 6px;
+    font-size: 12px;
 }
 
-.buy_box_1 p a{
-    font-size: 12px;
+.buy_box_1 p{
+    cursor: pointer;
 }
 
 .buy_box_2{
