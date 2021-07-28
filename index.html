@@ -30,6 +30,7 @@
     <script src="./slick-default/slick.min.js"></script>
 
     <script src="load/common.js"></script>
+    <script src="js/index.js"></script>
     
     
     
@@ -114,17 +115,21 @@
             <div>
                 <ul class="b">
                     <li class="b_img">
-                        <a href="#"><img src="img/best_1/pa2.png" alt="#"></a>
+                        <a href="#"><img src="img/best_1/pa1.png" alt="#"></a>
                     </li>
                     <li class="b_1_color">
                         <div class="left_icon">
                             <img src="img/icon_left.png" alt="#">
                         </div>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                        <div class="c-slide">
+                            <p>
+                                <span data-num="0"></span>
+                                <span data-num="1"></span>
+                                <span data-num="2"></span>
+                                <span data-num="3"></span>
+                                <span data-num="4"></span>
+                            </p>
+                        </div>
                         <div class="right_icon">
                             <img src="img/icon_right.png" alt="#">
                         </div>
@@ -146,7 +151,7 @@
                         <a href="#"><img src="img/best_2/per1.png" alt="#"></a>
                     </li>
                     <li class="b_2_color">
-                        <span></span>
+                        <span data-num="0"></span>
                     </li>
                     <li class="b_text">
                         <a href="#">리브르 오 드 빠르펭</a>
@@ -164,8 +169,8 @@
                         <a href="buy_main.html"><img src="img/best_3/fact1.png" alt="#"></a>
                     </li>
                     <li class="b_3_color">
-                        <span></span>
-                        <span></span>
+                        <span data-num="0"></span>
+                        <span data-num="1"></span>
                     </li>
                     <li class="b_text">
                         <a href="buy_main.html">엉크르 드 뽀 쿠션</a>
@@ -183,8 +188,8 @@
                         <a href="#"><img src="img/best_4/pen1.png" alt="#"></a>
                     </li>
                     <li class="b_4_color">
-                        <span></span>
-                        <span></span>
+                        <span data-num="0"></span>
+                        <span data-num="1"></span>
                     </li>
                     <li class="b_text">
                         <a href="#">뚜쉬 에끌라</a>
@@ -202,7 +207,7 @@
                         <a href="#"><img src="img/best_5/serum1.png" alt="#"></a>
                     </li>
                     <li class="b_5_color">
-                        <span></span>
+                        <span data-num="0"></span>
                     </li>
                     <li class="b_text">
                         <a href="#">나이트 리부트 세럼</a>
@@ -214,40 +219,7 @@
                 </ul>
             </div>
         </div>
-
-        <script>
-            $('.regular').slick({
-            dots: false,
-            infinite: false,
-            speed: 300,
-            slidesToShow: 5,
-            slidesToScroll: 1,
-            responsive: [
-                
-                {
-                    breakpoint: 561,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 1,
-                        infinite: true,
-                        dots: false
-                    }
-                }
-                
-            ]
-            });
-
-            // var mql = window.matchMedia('screen and (max-width:561px)');
-            // mql.addListener(function(e){
-            //     if(e.matches){
-            //         console.log('561미만')
-            
-            //     }
-            //     else{console.log('561이상')}
-            // });
-        </script>
-
-        
+       
 
         <div class="event">
             <div class="event_img">
