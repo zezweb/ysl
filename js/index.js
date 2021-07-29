@@ -59,7 +59,8 @@ function init(){
     const elB = document.querySelectorAll('.b');
 
     let elImgSrc = [
-        ['img/best_1/pa1.png','img/best_1/pa2.png','img/best_1/pa3.png','img/best_1/pa4.png','img/best_1/pa5.png'],
+        ['img/best_1/pa1.png','img/best_1/pa2.png','img/best_1/pa3.png','img/best_1/pa4.png','img/best_1/pa5.png',
+        'img/best_1/pa6.png','img/best_1/pa7.png','img/best_1/pa8.png','img/best_1/pa9.png','img/best_1/pa10.png'],
         ['img/best_2/per1.png'],
         ['img/best_3/fact1.png','img/best_3/fact2.png'],
         ['img/best_4/pen1.png','img/best_4/pen2.png'],
@@ -79,17 +80,25 @@ function init(){
         });
     }
 
+    const container = document.querySelector('.b_1_color');
+    const colorP = document.querySelector('.c-slide p');
     const btnLeft = document.querySelector('.left_icon');
     const btnRight = document.querySelector('.right_icon');
-    const colorP = document.querySelector('.c-slide p');
+    let slide = document.querySelectorAll('.c-slide p span');
     let cIdx = 0;
+
     btnLeft.addEventListener('click',function(){
-        colorP.style = 'transform:translateX(0px)';
+        if( cIdx > 0 ){
+        cIdx--;
+        colorP.style = `transform:translateX(${-32 * cIdx}px)`;
+        }
     });
     btnRight.addEventListener('click',function(){
-        colorP.style = 'transform:translateX(-63px)';
+        if( cIdx < `${slide.length-3}` ){
+        cIdx++;
+        colorP.style = `transform:translateX(${-32 * cIdx}px)`;
+        }
     });
-
 
         // var mql = window.matchMedia('screen and (max-width:561px)');
         // mql.addListener(function(e){
@@ -99,7 +108,8 @@ function init(){
         //     }
         //     else{console.log('561이상')}
         // });
-}
 
+        
+}
 
 window.onload = init;
