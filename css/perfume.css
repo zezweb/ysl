@@ -38,11 +38,8 @@
     margin: 0 14px;
 }
 
-.p_menu span:nth-of-type(2){
-    text-decoration: underline;
-}
-
-.p_menu span a:hover{
+.p_menu span a:hover,
+.p_menu span a.active{
     text-decoration: underline;
 }
 
