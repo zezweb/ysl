@@ -1,4 +1,5 @@
 function init(){
+
     const buySet = document.querySelector('.buyset');
     var buyNum = document.querySelector('.buy_box_1 > p:nth-child(2)');
     var plus = document.querySelector('.buy_box_1 > p:nth-child(3)');
@@ -18,10 +19,11 @@ function init(){
                 buyNum.textContent = i--
             }
     });
-
+    
+    
     let xhr,res,tagList='';
     xhr = new XMLHttpRequest();
-    xhr.open('get','data/makeup.data.json');  // get, post //
+    xhr.open('get','data/makeup/makeup.data.json');  // get, post //
     xhr.send(null);
     xhr.onload = function(){
         res = JSON.parse(xhr.responseText);
