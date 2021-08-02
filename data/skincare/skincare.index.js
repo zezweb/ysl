@@ -45,9 +45,6 @@ function init(){
 
         elUl.innerHTML = tagList;
 
-    }
-    list();
-
         const skinLi = document.querySelectorAll('.skin_shop li');
         for(let i=0; i<skinLi.length; i++){
             skinLi[i].addEventListener('click',function(e){
@@ -56,6 +53,11 @@ function init(){
                 location.href = "buy2.html";
             });
         }
+
+    }
+    list();
+
+        
 
 
         const skinTab = document.querySelectorAll('.s_menu span a');
