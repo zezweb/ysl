@@ -1,0 +1,276 @@
+{
+    "work":[
+        {   
+            "code":"makeup-01",
+            "type":"acc",
+            "photo":"img/makeup/acc_1.png",
+            "link":"buy.html",
+            "name":"르 쿠션 엉크르 드 뽀 어플리케이터",
+            "detail":"쿠션 어플리케이터",
+            "money":"14,000&#92;",
+
+            "buyDetail":"꾸뛰르 잉크 쿠션, 르 쿠션 엉크르 드 뽀 제품 전용 어플리케이터 (2개입)"
+        },
+
+        {   "code":"makeup-02",
+            "type":"acc",
+            "photo":"img/makeup/acc_2.png",
+            "link":"buy.html",
+            "name":"파운데이션 브러쉬",
+            "detail":"브러쉬",
+            "money":"70,000&#92;",
+
+            "buyDetail":"높은 퀄리티의 브러쉬 모가 가벼운 터치만으로 파운데이션을 빠르고 쉽게 바를 수 있게 하는 브러쉬."
+        },
+
+        {   "code":"makeup-03",
+            "type":"acc",
+            "photo":"img/makeup/acc_3.png",
+            "link":"buy.html",
+            "name":"파우더 브러쉬",
+            "detail":"브러쉬",
+            "money":"87,000&#92;",
+
+            "buyDetail":"파우더를 얼굴 곡선에 따라 가볍고 고르게 발라 벨벳 피니쉬로 마무리해주는 파우더 전용 브러쉬."
+        },
+
+        {   "code":"makeup-04",
+            "type":"acc",
+            "photo":"img/makeup/acc_4.png",
+            "link":"buy.html",
+            "name":"마블 팩트 어플리케이터",
+            "detail":"팩트 어플리케이터",
+            "money":"12,000&#92;",
+            
+            "buyDetail":"럭셔리 마블 팩트, 엉크르 드 뽀 마블 에센스 크림팩트 제품 전용 어플리케이터 (2개입)"
+        },
+
+        {   "code":"makeup-05",
+            "type":"acc",
+            "photo":"img/makeup/acc_5.png",
+            "link":"buy.html",
+            "name":"폴리싱 파운데이션 브러쉬",
+            "detail":"브러쉬",
+            "money":"82,000&#92;",
+            
+            "buyDetail":"하이라이너나 블러셔, 파우더를 피부 위에 매끄럽게 연출해주며, 섬세한 터치로 완벽한 피부를 연출하는 폴리셔 브러쉬"
+        },
+
+        {   "code":"makeup-06",
+            "type":"acc",
+            "photo":"img/makeup/acc_6.png",
+            "link":"buy.html",
+            "name":"블러쉬 브러쉬",
+            "detail":"브러쉬",
+            "money":"73,000&#92;",
+            
+            "buyDetail":"완벽한 블러쉬 메이크업 연출을 위해 디자인 된 블러쉬 전용 브러쉬."
+        },
+
+        {   "code":"makeup-07",
+            "type":"acc",
+            "photo":"img/makeup/acc_7.png",
+            "link":"buy.html",
+            "name":"리트랙터블 립 브러쉬",
+            "detail":"브러쉬",
+            "money":"41,000&#92;",
+            
+            "buyDetail":"입술의 곡선을 따라 자연스럽고 부드럽게 립 메이크업을 연출할 수 있는 리트랙터블 립 브러쉬."
+        },
+
+        {   "code":"makeup-08",
+            "type":"acc",
+            "photo":"img/makeup/acc_8.png",
+            "link":"buy.html",
+            "name":"올아워 파우더 스폰지",
+            "detail":"파우더 스폰지 2개입",
+            "money":"15,000&#92;",
+            
+            "buyDetail":"올아워 세팅 파우더 제품 전용 어플리케이터 (2개입)"
+        },
+
+
+
+
+
+        {   
+            "code":"makeup-09",
+            "type":"lip",
+            "photo":"img/makeup/rip/rip0.png",
+            "link":"buy.html",
+            "name":"루쥬 쀠르 꾸뛰르 레드 컬렉션",
+            "detail":"입생로랑 아이코닉 립스틱",
+            "money":"49,000&#92;",
+
+            "buyDetail":"대담한 애티튜드로 스스로를 정의하는 YSL 여성들을 위한 아이코닉 립스틱 입니다."
+        },
+        {   
+            "code":"makeup-10",
+            "type":"lip",
+            "photo":"img/makeup/rip/rip1.png",
+            "link":"buy.html",
+            "name":"루쥬 쀠르 꾸뛰르",
+            "detail":"입생로랑 아이코닉 립스틱",
+            "money":"49,000&#92;",
+
+            "buyDetail":"대담한 애티튜드로 스스로를 정의하는 YSL 여성들을 위한 아이코닉 립스틱 입니다."
+        },
+        {   
+            "code":"makeup-11",
+            "type":"lip",
+            "photo":"img/makeup/rip/rip2.png",
+            "link":"buy.html",
+            "name":"루쥬 볼륍떼 샤인",
+            "detail":"고보습 샤인 립스틱",
+            "money":"49,000&#92;",
+
+            "buyDetail":"대담한 애티튜드로 스스로를 정의하는 YSL 여성들을 위한 아이코닉 립스틱 입니다."
+        },
+        {   
+            "code":"makeup-12",
+            "type":"lip",
+            "photo":"img/makeup/rip/rip3.png",
+            "link":"buy.html",
+            "name":"베르니 아 레브르",
+            "detail":"워터 스테인 글로우",
+            "money":"49,000&#92;",
+
+            "buyDetail":"대담한 애티튜드로 스스로를 정의하는 YSL 여성들을 위한 아이코닉 립스틱 입니다."
+        },
+        {   
+            "code":"makeup-13",
+            "type":"lip",
+            "photo":"img/makeup/rip/rip4.png",
+            "link":"buy.html",
+            "name":"밀크티 컬렉션",
+            "detail":"12가지 인텐스 누드 컬러",
+            "money":"49,000&#92;",
+
+            "buyDetail":"입생로랑이 제안하는 새로운 트렌드 컬러 - 밀크티 컬렉션."
+        },
+
+
+
+
+        {   
+            "code":"makeup-14",
+            "type":"eye",
+            "photo":"img/makeup/eye/eye0.png",
+            "link":"buy.html",
+            "name":"꾸뛰르 컬러 클러치",
+            "detail":"10 컬러 아이섀도우 팔레트",
+            "money":"135,000&#92;",
+
+            "buyDetail":"클러치에 담긴 다채로운 컬러가 선사하는 당신만의 럭셔리한 아이 팔레트."
+        },
+
+        {   
+            "code":"makeup-15",
+            "type":"eye",
+            "photo":"img/makeup/eye/eye1.png",
+            "link":"buy.html",
+            "name":"꾸뛰르 클러치 홀리데이",
+            "detail":"2020 홀리데이 한정판",
+            "money":"140,000&#92;",
+
+            "buyDetail":"와일드한 홀리데이 룩의 완성, 입생로랑 2020 홀리데이 레오파드 컬렉션"
+        },
+
+        {   
+            "code":"makeup-16",
+            "type":"eye",
+            "photo":"img/makeup/eye/eye2.png",
+            "link":"buy.html",
+            "name":"새틴 크러쉬 아이섀도우",
+            "detail":"입생로랑 모노섀도우",
+            "money":"45,000&#92;",
+
+            "buyDetail":"4가지 뉴트럴 컬러가 쉬어하게 발색되어 은은하게 반짝이는 새틴 피니쉬"
+        },
+
+        {   
+            "code":"makeup-17",
+            "type":"eye",
+            "photo":"img/makeup/eye/eye3.png",
+            "link":"buy.html",
+            "name":"꾸뛰르 팔레트",
+            "detail":"5 컬러 아이섀도 팔레트",
+            "money":"87,000&#92;",
+
+            "buyDetail":"입생로랑이 선사하는 현대적이고 감각적인 색채의 5컬러 아이섀도 팔레트"
+        },
+
+        {   
+            "code":"makeup-18",
+            "type":"eye",
+            "photo":"img/makeup/eye/eye4.png",
+            "link":"buy.html",
+            "name":"마스카라 볼륨 에페 포 실 더 컬러",
+            "detail":"컬링 마스카라",
+            "money":"48,000&#92;",
+
+            "buyDetail":"YSL만의 독특한 이중 재질 브러쉬가 강력한 컬링과 깨끗한 볼륨을 선사하는 마스카라.<br>오래 지속되는 컬링으로 새로운 시그니처 아이룩을 표현해 보세요"
+        },
+
+
+
+        {   
+            "code":"makeup-19",
+            "type":"face",
+            "photo":"img/makeup/face/face0.png",
+            "link":"buy.html",
+            "name":"NEW 엉크르 드 뽀 쿠션",
+            "detail":"NEW 잉크 쿠션",
+            "money":"89,000&#92;",
+
+            "buyDetail":"출시부터 지금까지 6년동안 꾸준한 사랑을 받고 있는 독보적 No.1* 럭셔리 쿠션"
+        },
+        {   
+            "code":"makeup-20",
+            "type":"face",
+            "photo":"img/makeup/face/face1.png",
+            "link":"buy.html",
+            "name":"올아워 쿠션 파운데이션 리필",
+            "detail":"올아워 쿠션 리필",
+            "money":"50,000&#92;",
+
+            "buyDetail":"5년 연속 No.1* 럭셔리 쿠션"
+        },
+        {   
+            "code":"makeup-21",
+            "type":"face",
+            "photo":"img/makeup/face/face2.png",
+            "link":"buy.html",
+            "name":"올아워 파운데이션",
+            "detail":"올아워 파운데이션",
+            "money":"84,000&#92;",
+
+            "buyDetail":"강력한 밀착 커버, 탁월한 롱래스팅, 내 피부 같은 가볍고 편안한 피팅을 선사하는, 올아워 파운데이션"
+        },
+        {   
+            "code":"makeup-22",
+            "type":"face",
+            "photo":"img/makeup/face/face3.png",
+            "link":"buy.html",
+            "name":"뚜쉬 에끌라 르땡 크림",
+            "detail":"르땡 크림 파운데이션",
+            "money":"87,000&#92;",
+
+            "buyDetail":"빛이 닿는 순간마다 섬세하게 빛나는 은은한 글로우를 선사합니다"
+        },
+        {   
+            "code":"makeup-23",
+            "type":"face",
+            "photo":"img/makeup/face/face4.png",
+            "link":"buy.html",
+            "name":"유스 리버레이터 세럼 파운데이션",
+            "detail":"세럼 파운데이션",
+            "money":"98,000&#92;",
+
+            "buyDetail":"피부 속 탄력을 끌어올려 매끈하고 윤기있는 동안 페이스를 연출해주는 리프팅 세럼 파운데이션"
+        }
+        
+
+
+    ]
+}
