@@ -156,6 +156,12 @@
     }
 }
 
+@media (max-width:666px){
+    .buy_text_last_1 {
+        width: 90%;
+    }
+}
+
 @media (max-width:610px){
     .buy span {
         width: 42%;
@@ -165,6 +171,12 @@
 @media (max-width:538px){
     .buy_text_last_2 {
         padding: 10% 18%;
+    }
+}
+
+@media (max-width:525px){
+    .buy_text_last_1 {
+        width: 53%;
     }
 }
 
@@ -199,31 +211,13 @@
     .buy {
         width: 67%;
     }
-    .buy_text_last_1 {
-        width: 80%;
-    }
     .buy_text_last_2 {
         padding: 14% 16% 18%;
     }
 }
 
 @media (max-width:376px){
-    .buy_text_last_1 {
-        width: 85%;
-    }
     .buy_text_last_1 p:last-child {
         padding-bottom: 59px;
-    }
-}
-
-@media (max-width:367px){
-    .buy_text_last_1 {
-        width: 88%;
-    }
-}
-
-@media (max-width:360px){
-    .buy_text_last_1 {
-        width: 90%;
     }
 }
