@@ -66,8 +66,21 @@ function init(){
         ['img/best_4/pen1.png','img/best_4/pen2.png'],
         ['img/best_5/serum1.png']        
     ]
+        
     
+    function colorIdx(i){
+        this.num = 0,
+        this.colorP = elB[i].querySelector('.c-slide p'),
+        this.btnLeft = elB[i].querySelector('.left_icon'),
+        this.btnRight = elB[i].querySelector('.right_icon'),
+        this.slide = elB[i].querySelectorAll('.c-slide p span')
+    }
+    colorIdx.prototype.count = function(n){
+        return this.num = this.num + n;
+    }
+
     for(let i=0;i<elB.length; i++){
+        
         elB[i].addEventListener('click',function(e){
             const elSpan = elB[i].querySelectorAll('span');
             const elImg = elB[i].querySelector('.b_img img');
@@ -76,29 +89,35 @@ function init(){
                 let colorNum = e.target.dataset.num; //span(data-num)
                 elImg.setAttribute('src',elImgSrc[i][colorNum]); //img src change
             }
-            
         });
+
+        // const container = elB[i].querySelector('.b_1_color');
+        let cSlide = new colorIdx(i);
+
+        try{
+            cSlide.btnLeft.addEventListener('click',function(){
+                let count = cSlide.count(0);
+                if( count > 0 ){
+                    count = cSlide.count(-1);
+                    cSlide.colorP.style = `transform:translateX(${-32 * count}px)`;
+                }
+            });
+
+            cSlide.btnRight.addEventListener('click',function(){
+                let count = cSlide.count(0);
+                if( count < cSlide.slide.length-3){
+                    count = cSlide.count(1);
+                    cSlide.colorP.style = `transform:translateX(${-32 * count}px)`;
+                }
+                
+            });
+        }catch{}        
     }
 
-    const container = document.querySelector('.b_1_color');
-    const colorP = document.querySelector('.c-slide p');
-    const btnLeft = document.querySelector('.left_icon');
-    const btnRight = document.querySelector('.right_icon');
-    let slide = document.querySelectorAll('.c-slide p span');
-    let cIdx = 0;
+    
 
-    btnLeft.addEventListener('click',function(){
-        if( cIdx > 0 ){
-        cIdx--;
-        colorP.style = `transform:translateX(${-32 * cIdx}px)`;
-        }
-    });
-    btnRight.addEventListener('click',function(){
-        if( cIdx < `${slide.length-3}` ){
-        cIdx++;
-        colorP.style = `transform:translateX(${-32 * cIdx}px)`;
-        }
-    });
+
+    
 
         // var mql = window.matchMedia('screen and (max-width:561px)');
         // mql.addListener(function(e){
