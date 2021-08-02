@@ -48,17 +48,19 @@ function init(){
 
         elUl.innerHTML = tagList;
 
+            const perLi = document.querySelectorAll('.perfume_shop li');
+            for(let i=0; i<perLi.length; i++){
+                perLi[i].addEventListener('click',function(e){
+                    e.preventDefault();
+                    localStorage.code = this.dataset.code;
+                    location.href = "buy3.html";
+                })
+            }
+
         }
         list();
 
-        const perLi = document.querySelectorAll('.perfume_shop li');
-        for(let i=0; i<perLi.length; i++){
-            perLi[i].addEventListener('click',function(e){
-                e.preventDefault();
-                localStorage.code = this.dataset.code;
-                location.href = "buy3.html";
-            })
-        }
+        
 
         const perTab = document.querySelectorAll('.p_menu span a');
         let ptNum = 0;
