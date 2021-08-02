@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<work>
+    <item>
+        <photo><img src="img/perfume/perfume1.png"/></img></photo>
+        <link>buy3.html</link>
+        <name>리브르 오 드 빠르펭</name>
+        <detail>리브르 기프트 박스 세트</detail>
+        <money>152,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/perfume/perfume2.png"/></img></photo>
+        <link>buy3.html</link>
+        <name>리브르 핸드 크림</name>
+        <detail>수딩 핸드 크림</detail>
+        <money>45,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/perfume/perfume3.png"/></img></photo>
+        <link>buy3.html</link>
+        <name>리브르 오 드 빠르펭</name>
+        <detail>입생로랑 아이코닉 향수</detail>
+        <money>155,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/perfume/perfume4.png"/></img></photo>
+        <link>buy3.html</link>
+        <name>리브르 오 드 뚜왈렛</name>
+        <detail>플로럴향수</detail>
+        <money>132,000&#92;</money>
+    </item>
+</work>
