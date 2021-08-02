@@ -40,10 +40,10 @@
 
 .m_menu span:last-child{
     margin: 0 14px;
-    text-decoration: underline;
 }
 
-.m_menu span a:hover{
+.m_menu span a:hover,
+.m_menu span a.active{
     text-decoration: underline;
 }
 
