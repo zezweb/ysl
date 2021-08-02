@@ -10,7 +10,7 @@
 
     <script src="../jquery/jquery-3.6.0.min.js"></script>
     <script src="load/common.js"></script>
-    <script src="data/makeup.index.js"></script>
+    <script src="data/makeup/makeup.index.js"></script>
 </head>
 <body>
 
@@ -73,16 +73,16 @@
     <!-- m_bg -->
 
     <nav class="m_menu">
-        <span><a href="#">전체보기</a></span>
-        <span><a href="#">페이스</a></span>
-        <span><a href="#">립</a></span>
-        <span><a href="#">아이</a></span>
-        <span><a href="makeup.html">악세서리</a></span>
+        <span><a href="#" data-name="all" class="active">전체보기</a></span>
+        <span><a href="#" data-name="face">페이스</a></span>
+        <span><a href="#" data-name="lip">립</a></span>
+        <span><a href="#" data-name="eye">아이</a></span>
+        <span><a href="#" data-name="acc">악세서리</a></span>
     </nav>
 
     <!-- m_menu -->
 
-<ul class="acc"> 
+<ul class="acc active"> 
     <!-- <li>
         <div class="btn">
             <a href="buy.html">상세보기</a>
