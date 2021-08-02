@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<work>
+    <item>
+        <photo><img src="img/skincare/skin_1.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy3.html</link>
+        <name>라인즈 어웨이 세럼</name>
+        <money>117,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/skincare/skin_2.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>라인즈 어웨이 세럼 리필</name>
+        <money>97,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/skincare/skin_3.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>라이트 업 세럼</name>
+        <money>117,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/skincare/skin_4.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>라이트 업 세럼 리필</name>
+        <money>97,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/skincare/skin_5.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>와이 세이프 세럼</name>
+        <money>117,000&#92;</money>
+    </item>
+    <item>
+        <photo><img src="img/skincare/skin_6.png"/></img></photo>
+        <link>https://zezweb.github.io/ysl/buy.html</link>
+        <name>와이 세이프 세럼 리필</name>
+        <money>97,000&#92;</money>
+    </item>
+</work>
