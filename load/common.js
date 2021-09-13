@@ -6,7 +6,6 @@ $(function(){
 
     function nav(){
         $('header nav a').on('mouseenter',function(){
-            $(this).css('color','black');
         });
 
         const elBurger = document.querySelector('.menu-trigger');
