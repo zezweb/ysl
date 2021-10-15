@@ -1097,6 +1097,15 @@ transform: translateY(100%);
     }
 }
 
+@media (max-width:375px){
+    .l_img{
+        width: 75%;
+    }
+    .main_bg_right {
+        bottom: -20px;
+    }
+}
+
 @media (max-width:374px){
     .l .l_text{
         width: 50%;
@@ -1107,22 +1116,6 @@ transform: translateY(100%);
 @media (max-width:372px){
     .best {
         margin-bottom: 48px;
-    }
-}
-
-@media (max-width:375px){
-    .l_img{
-        width: 75%;
-    }
-    .main_bg_right {
-        bottom: -22px;
-    }
-}
-
-@media (max-width:374px){
-    .l .l_text{
-        width: 50%;
-        margin: 11% 0 20% 13%;
     }
 }
 
