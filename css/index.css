@@ -1114,6 +1114,9 @@ transform: translateY(100%);
     .l_img{
         width: 75%;
     }
+    .main_bg_right {
+        bottom: -22px;
+    }
 }
 
 @media (max-width:374px){
